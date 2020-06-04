@@ -15,6 +15,10 @@ export interface VideoOptions {
    * These strings are the only ones which can be passed as option.
    */
   scalingMode?: number;
+  /**
+   * Allows you to set the fullscreen Dialog cacelable or not incase to play complete video
+   */
+  cancelableDialog?: boolean;
 }
 
 /**
@@ -45,9 +49,9 @@ export interface VideoOptions {
  */
 @Plugin({
   pluginName: 'VideoPlayer',
-  plugin: 'https://github.com/moust/cordova-plugin-videoplayer.git',
+  plugin: 'https://github.com/waqasjamil/cordova-plugin-videoplayer.git',
   pluginRef: 'VideoPlayer',
-  repo: 'https://github.com/moust/cordova-plugin-videoplayer',
+  repo: 'https://github.com/waqasjamil/cordova-plugin-videoplayer',
   platforms: ['Android'],
 })
 @Injectable()

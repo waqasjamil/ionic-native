@@ -83,10 +83,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/ionic-native.git"
+    "url": "git+https://github.com/waqasjamil/ionic-native.git"
   },
   "bugs": {
-    "url": "https://github.com/ionic-team/ionic-native/issues"
+    "url": "https://github.com/waqasjamil/ionic-native/issues"
   },
   "config": {
     "commitizen": {
@@ -105,5 +105,9 @@
     "*": [
       "prettier --write"
     ]
+  },
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/"
   }
+
 }
